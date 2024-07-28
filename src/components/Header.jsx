@@ -8,7 +8,7 @@ function Header() {
         <div className="hidden md:flex space-x-8">
           <a href="#projects" className="text-lg font-semibold tracking-wide hover:text-gray-400 transition duration-300 transform hover:-translate-y-1">Projects</a>
           <a href="#about" className="text-lg font-semibold tracking-wide hover:text-gray-400 transition duration-300 transform hover:-translate-y-1">About</a>
-          <a href="#contact" className="text-lg font-semibold tracking-wide hover:text-gray-400 transition duration-300 transform hover:-translate-y-1">Contact</a>
+          <a href="#contact" className="text-lg font-semibold tracking-wide hover:text-gray-400 transition duration-300 transform hover:-translate-y-1">Resume</a>
         </div>
         <div className="md:hidden">
           {/* Mobile menu icon */}
