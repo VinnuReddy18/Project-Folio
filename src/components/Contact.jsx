@@ -3,13 +3,13 @@ import { FaEye, FaDownload } from 'react-icons/fa';
 
 function Resume() {
   const handleViewResume = () => {
-    window.open('vinay-reddy-resume.pdf', '_blank');
+    window.open('https://drive.google.com/file/d/14kW9OqROhIaKgFjC0nLUMX-NBhW2pEwT/view?usp=sharing', '_blank');
   };
 
   const handleDownloadResume = () => {
     const link = document.createElement('a');
-    link.href = 'vinay-reddy-resume.pdf';
-    link.download = 'vinay-reddy-resume.pdf';
+    link.href = 'https://drive.google.com/file/d/14kW9OqROhIaKgFjC0nLUMX-NBhW2pEwT/view?usp=sharing';
+    link.download = 'https://drive.google.com/file/d/14kW9OqROhIaKgFjC0nLUMX-NBhW2pEwT/view?usp=sharing';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
